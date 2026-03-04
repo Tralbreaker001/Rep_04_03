@@ -20,6 +20,7 @@
                      GotFocus="txb_authorization_password_GotFocus"
                      LostFocus="txb_authorization_password_LostFocus"/>
             <Button Content="Войти" Name="btn_authorization_auth" Click="btn_authorization_auth_Click"/>
+            <Button Content="Войти как гость" Name="btn_authorization_guest_auth" Click="btn_authorization_guest_auth_Click"/>
             <Button Content="Отмена" Name="btn_authorization_cancel" Click="btn_authorization_cancel_Click"/>
         </StackPanel>
 

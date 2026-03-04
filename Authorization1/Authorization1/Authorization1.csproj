@@ -65,6 +65,9 @@
     <Compile Include="Windows\AdminList.xaml.cs">
       <DependentUpon>AdminList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\GuestList.xaml.cs">
+      <DependentUpon>GuestList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\ManagerList.xaml.cs">
       <DependentUpon>ManagerList.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Windows\AdminList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\GuestList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

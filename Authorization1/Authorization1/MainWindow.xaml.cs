@@ -105,5 +105,10 @@ namespace Authorization1
         {
             this.Close();
         }
+
+        private void btn_authorization_guest_auth_Click(object sender, RoutedEventArgs e)
+        {
+            windowActive(new GuestList());
+        }
     }
 }
