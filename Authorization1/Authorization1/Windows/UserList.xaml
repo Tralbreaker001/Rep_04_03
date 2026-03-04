@@ -1,0 +1,24 @@
+﻿<Window x:Class="Authorization1.Windows.UserList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Authorization1.Windows"
+        mc:Ignorable="d"
+        Title="UserList" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" LastChildFill="False">
+            <TextBlock x:Name="txb_UserFullName" DockPanel.Dock="Right" VerticalAlignment="Center" Margin="5"/>
+            <Button Content="Сменить пользователя" DockPanel.Dock="Right"
+                    Name="btn_SwitchUser" Click="btn_SwitchUser_Click" Margin="5"/>
+        </DockPanel>
+
+        <Grid Grid.Row="1">
+        </Grid>
+    </Grid>
+</Window>
